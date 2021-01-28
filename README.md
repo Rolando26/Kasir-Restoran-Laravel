@@ -1,14 +1,13 @@
 # Laravel Restaurant
 
-Aplikasi restoran dibuat menggunakan Laravel dan VueJS (hasil pra LSP)
+Aplikasi restoran dibuat menggunakan Laravel dan VueJS 
 
 ## Installation
 
 Use the package manager (composer) for installing
 
-```bash
-git clone https://github.com/zuramai/laravel-restaurant-lsp.git
-cd laravel-restaurant-lsp
+
+cd laravel-restaurant
 composer install
 npm install
 copy .env.example .env
@@ -19,21 +18,9 @@ php artisan storage:link
 php artisan migrate
 php artisan db:seed
 ```
-## Account Demo
+## Account 
 Username: admin
 Password: admin
 
-Username: waiter
-Password: waiter
 
-Username: kasir
-Password: kasir
 
-Username: owner
-Password: owner
-
-Username: pelanggan
-Password: pelanggan
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
